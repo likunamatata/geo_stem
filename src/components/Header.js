@@ -11,7 +11,7 @@ function Nav() {
         <NavLink to='/Resources' className='navLink'>რესურსები</NavLink>
         <NavLink to='/Mentorship' className='navLink'>სადამრიგებლო პროგრამა</NavLink>
       </div>
-      <img src={logo} id='logo'/>
+      <img src={logo} id='logo' alt='logo'/>
     </div>
   );
 }
