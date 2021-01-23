@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import { getData } from "../services/api";
+// import { getData } from "../services/api";
 import youtube from "../media/youtube_full_color_icon/digital_and_tv/yt_icon_rgb.png"
 import twitter from "../media/Twitter All Brand Resources/Twitter Logos/Twitter_Logo_Blue/Twitter_Logo_Blue.png"
-import {Link} from 'react-router-dom'
 
 class Resources extends Component {
   constructor() {
@@ -13,11 +12,11 @@ class Resources extends Component {
   }
   
   componentDidMount = async () => {
-    const response = await getData();
-    console.log('RESPONSE', response)
-    this.setState({
-      data: response,
-    });
+    // const response = await getData();
+
+    // this.setState({
+    //   data: response,
+    // });
   };
   
   render() {
