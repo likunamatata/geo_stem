@@ -2,3 +2,7 @@
   base = "/"
   command = "npm install && npm run build"
   publish = "build"
+
+
+[redirects]
+  /*    /index.html   200
