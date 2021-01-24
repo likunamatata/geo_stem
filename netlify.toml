@@ -6,6 +6,7 @@
 [[redirects]]
   from = "/*"
   to = "/*"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
