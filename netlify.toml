@@ -3,6 +3,5 @@
   command = "npm install && npm run build"
   publish = "build"
 
-
-[redirects]
+[[redirects]]
   /*    /index.html   200
