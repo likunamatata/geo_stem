@@ -4,8 +4,8 @@
   publish = "build"
 
 [[redirects]]
-  from = "/search"
-  to = "https://api.mysearch.com"
+  from = "/*"
+  to = "/*"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
